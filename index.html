@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button" style="background-color:DarkGoldenRod;"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-smallw"style="background-color:DarkRed;">Characters</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small"style="background-color:DarkRed;">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small"style="background-color:DarkRed;">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small"style="background-color:DarkRed;">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button"style="background-color:DarkRed;" title="Notifications">Support <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="https://www.youtube.com/channel/UClsZljOX1YhuN7fK5jCFwLw" class="w3-bar-item w3-button">Youtube</a>
+      <a href="#" class="w3-bar-item w3-button"></a>
+    </div>
+  </div>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Images/header.jpg" alt="fortmain" style="width:100%;min-height:275;max-height:750;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-red" title="Go To W3.CSS">The Fortress</button>
+  </div>
+</div>
+
+<!-- Modal -->
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" style="background-color:DimGrey;" id="team">
+<h2>MY CHARACTERS</h2>
+<p>Meet some of the characters that you will find in the game:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter"style="border-width:3px; border-style:solid; border-color:DarkGoldenRod; background-color:white; padding: 2em;">
+  <img src="Images/knight.jpg" alt="Boss" style="width:45%" class="w3-hover-opacity">
+  <h3>Traveller</h3>
+  <p>The traveller, a knight of great importance to the kingdom of Laratis, who has been captured by the opposing army, the warriors of Mawel.
+  This will be the character you play as throughout the game as you unlock new weapons and abilities to escape the fortress of Sanguise.</p>
+</div>
+
+<div class="w3-quarter"style="border-width:3px; border-style:solid; border-color:DarkGoldenRod; background-color:white; padding: 2em;">
+  <img src="Images/convict.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>David, the Prisoner</h3>
+  <p>David was once part of a group of warriors that is now long lost in history, cursed with a long life span, he now spends his days rotting in a cell, with his morality and spirit crushed.
+  This is the first boss that you will fight in the game, his wild swings and erratic movement are sure to be a challenge.</p>
+</div>
+
+<div class="w3-quarter"style="border-width:3px; border-style:solid; border-color:DarkGoldenRod; background-color:white; padding: 2em;">
+  <img src="Images/Executioner.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Dolor, the Executioner(In Progress)</h3>
+  <p>Dolor is a bloodthirsty killer, it is his job, however his methods are what made him famous.
+  He makes sure to use the bluntest weapon possible during an execution, letting the victim feel it all. However this may lead to his downfall.</p>
+</div>
+
+<div class="w3-quarter"style="border-width:3px; border-style:solid; border-color:DarkGoldenRod; background-color:white; padding: 2em;">
+  <img src="Images/logo.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Grand Knight Victoris(In Progress) </h3>
+  <p>Victoris is undefeated, a true game changer who is capable to turn the tide of battle on his lonesome.
+  He is feared by all who know him due to his power. None could beat him....until now.
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l2" id="work">
+
+<div class="w3-quarter">
+<h2>My Work</h2>
+<p>My game is a survival/roguelike game where you have been imprisoned and must escape the dungeon of the castle you were trapped in. The game will be made for audiences between the ages of 10 and 16.
+ In my game there will be multiple enemy types, like an evil knight and a magethat shoots fire, as well as multiple bosses that consist of 3 of the characters above. These being the prisoner, the executioner, and the grand knight.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Images/Menu.jpg" alt="main" style="width:100%">
+  <div class="w3-container">
+  <h3>Main Menu</h3>
+  <h4>From the main menu you will be able to enter the game, exit the game, and personalise your settings.</h4>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Images/firstl.jpg" alt="1level" style="width:100%">
+  <div class="w3-container">
+  <h3>First Levels</h3>
+  <h4>In the first levels you will find out the controls and the main motive of the game. You will fight basic enemies and gather keys to unlock the door to the first boss of the game, the prisoner.</h4>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Images/firstb.jpg" alt="1bossroom" style="width:100%">
+  <div class="w3-container">
+  <h3>Boss Room 1</h3>
+  <h4>This is the room where you will fight the prisoner boss, he has been stuck in his cell for what seems like forever, which has driven him mad.</h4>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+<h2>Videos</h2>
+<div class="w3-quarter">
+	<iframe width="300" height="210"
+		src="https://www.youtube.com/embed/b-altMbvP4o">
+	</iframe>
+	<iframe width="300" height="210"
+		src="https://www.youtube.com/embed/ZyNTY2eaMG0">
+	</iframe>
+	<iframe width="300" height="210"
+		src="https://www.youtube.com/embed/GCSfxPuThQ8">
+	</iframe>
+</div>
+</div>
+<!-- Container -->
+
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <p>Free.</p>
+	<p>The game will have no price as this will allow as many people to play the game as possible.
+   
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l4" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Please let me know how my game is going.</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  address</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  phone number</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-grey" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Me</h4>
+  <a class="w3-button w3-large w3-red" href="https://www.youtube.com/channel/UClsZljOX1YhuN7fK5jCFwLw" title="Youtube"><i class="fa fa-youtube"></i></a>
+  <a class="w3-button w3-large w3-red" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
